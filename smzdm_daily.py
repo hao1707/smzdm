@@ -7,8 +7,8 @@ import sys
 import requests
 import re
 
-SMZDM_USERNAME = os.getenv('SMZDM_DAILY_USERNAME') or '' # username or email
-SMZDM_PASSWORD = os.getenv('SMZDM_DAILY_PASSWORD') or '' # password
+SMZDM_USERNAME = os.getenv('13631306902') or '' # username or email
+SMZDM_PASSWORD = os.getenv('123456qwe') or '' # password
 
 class SMZDMDailyException(Exception):
     def __init__(self, req):
