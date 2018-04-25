@@ -23,8 +23,8 @@ class SMZDMDaily(object):
     CHECKIN_URL = BASE_URL + '/user/checkin/jsonp_checkin'
 
     def __init__(self, username, password):
-        self.username = username
-        self.password = password
+        self.username = 13631306902
+        self.password = 123456qwe
         self.session = requests.Session()
 
     def checkin(self):
